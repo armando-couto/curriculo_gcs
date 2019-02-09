@@ -88,6 +88,9 @@
 .margin-20{
 	margin: 20px;
 }
+.margin-10{
+	margin: 10%;
+}
 .padding-1{
 	padding: 1%;
 }
@@ -117,5 +120,23 @@
 	}
 	.center-vertically{
 		margin-top: 0;
+	}
+}
+@media (max-width: 374px)
+{
+	.font-size-social-medias{
+		font-size: 12px;
+	}
+}
+@media (max-width: 321px)
+{
+	.font-size-social-medias{
+		font-size: 10px;
+	}
+}
+@media (max-width: 292px)
+{
+	.font-size-social-medias{
+		font-size: 8px;
 	}
 }
