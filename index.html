@@ -58,14 +58,14 @@
             <img class="rounded-circle border" src="public/images/infarma_logo.png" alt="Generic placeholder image" width="140" height="140">
             <div class="height-15"></div>
             <h4>Infarma Sistemas de Gestão</h4>
-            <p>As atividades pertinentes ao trabalho envolviam a criação de sistemas web por meio da linguagem Ruby acompanhada pelo framework Rails, além do manuseio de html, css e javascript. Por pertencer à equipe de pesquisa e inovação, a rotatividade de projetos e novas ferramentas era alta. A parte de gerenciamento era feita por meio do sistema JIRA e acompanhada pelo método Scrum, enquanto o versionamento de código era realizado por intermédio do sistema BitBucket.</p>
+            <p>As atividades pertinentes ao trabalho envolviam a criação de sistemas web por meio da linguagem Ruby acompanhada pelo framework Rails e na linguagem JavaScript com AngularJs, além do manuseio de html e css. Por pertencer à equipe de pesquisa e inovação, a rotatividade de projetos e novas ferramentas era alta. A parte de gerenciamento era feita por meio do sistema JIRA e acompanhada pelo método Scrum, enquanto o versionamento de código era realizado por intermédio do sistema BitBucket.</p>
             <p><a class="btn btn-secondary" href="http://www.infarma.com.br/" role="button">Visitar site »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle border" src="public/images/gti-logo.png" alt="Generic placeholder image" width="140" height="140">
             <div class="height-15"></div>
             <h4>GTI Engenharia Jr</h4>
-            <p>O trabalho na empresa consistia no desenvolvimento BackEnd e FrontEnd com foco na linguagem Ruby on Rails, utilizando o sistema de controle de versões git com deploy de projetos no heroku e no gitlab. Além disso, costumavam ser usadas ferramentas do Google, PagSeguro, html, css e javascript para o desenvolvimento, enquanto o gerenciamento dos projetos era feito por intermédio do Trello do método Scrum.</p>
+            <p>O trabalho na empresa consistia no desenvolvimento BackEnd e FrontEnd com foco na linguagem Ruby on Rails, utilizando o sistema de controle de versões git com deploy de projetos no heroku e no gitlab. Além disso, costumavam ser usadas ferramentas do Google, PagSeguro, html, css e javascript para o desenvolvimento, enquanto o gerenciamento de projetos era feito por intermédio do Trello com a metodologia Scrum.</p>
             <p><a class="btn btn-secondary" href="http://gtijr.com/" role="button">Visitar site »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
@@ -118,8 +118,8 @@
 	<div class="container">
 		<div class="jumbotron">
 		  <h1 class="">Glauton Santos</h1>
-		  <p class="lead">Competências principais: Ruby On Rails e Java.<br>
-Competências secundárias: Inglês Avançado, Vendas, Git, HTML, CSS, Bootstrap, JS, Android, Gateways de Pagamento, REST, Deploy, Scrum, SQL, Wordpress, etc.<br>
+		  <p class="lead">Competências principais: Ruby On Rails, Java e AngularJs.<br>
+Competências secundárias: Inglês Avançado, Android, Git, HTML, CSS, Bootstrap, JavaScript, Gateways de Pagamento, REST, Deploy, Scrum, SQL, SOAP, Wordpress, JIRA, BitBucket, Owncloud, Trello, etc.<br>
 Gostaria de dedicar este pequeno espaço para expor um pouco da minha personalidade e das minhas expectativas, tendo em vista que valorizo muito dois tópicos em específico, confiança profissional e fidelidade por parte daqueles que trabalham ao meu lado. Busco, acima de tudo, me superar mais a cada dia, realizando um serviço de qualidade e buscando uma boa convivência tanto com meus colegas de trabalho, afim de propiciar um ambiente mais sadio, quanto com eventuais clientes, no intuito de propiciar a melhor experiência possível para os dois lados, pois considero a consciência de um trabalho bem feito algo primordial para se ter uma boa qualidade de vida.</p>
 		  <hr class="my-4">
 		  <p>Visite meu linkedin!</p>
@@ -360,6 +360,25 @@ Gostaria de dedicar este pequeno espaço para expor um pouco da minha personalid
 				</div>
 		    </div>
 		  </div>
+		  <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
+		          Dica para desligar aplicações no Linux
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseFourth" class="collapse" aria-labelledby="headingFourth" data-parent="#accordion">
+				<div class="container border padding-3">
+					<span class="padding-1">Rode o seguinte comando no terminal</span>
+					<article class="back-code padding-2">
+						<code class="color-code">xkill</code>
+					</article>
+					<span class="padding-1">O cursor do mouse será apresentado como um X, nesse monento, clique em cima do programa que você deseja fechar a pronto.</span>
+					<div class="height-30"></div>
+				</div>
+		    </div>
+		  </div>
 		</div>
 	</div>
 	<div class="container">
@@ -413,6 +432,8 @@ Gostaria de dedicar este pequeno espaço para expor um pouco da minha personalid
     			document.getElementById("second-block").style.display = 'none';
     			document.getElementById("third").classList.remove('active');
     			document.getElementById("third-block").style.display = 'none';
+    			document.getElementById("fourth").classList.add('active');
+    			document.getElementById("fourth-block").style.display = 'none';
     		}else if(id == 'second'){
     			document.getElementById("first").classList.remove('active');
     			document.getElementById("first-block").style.display = 'none';
@@ -420,6 +441,8 @@ Gostaria de dedicar este pequeno espaço para expor um pouco da minha personalid
     			document.getElementById("second-block").style.display = 'block';
     			document.getElementById("third").classList.remove('active');
     			document.getElementById("third-block").style.display = 'none';
+    			document.getElementById("fourth").classList.add('active');
+    			document.getElementById("fourth-block").style.display = 'none';
     		}else if(id == 'third'){
     			document.getElementById("first").classList.remove('active');
     			document.getElementById("first-block").style.display = 'none';
@@ -427,6 +450,17 @@ Gostaria de dedicar este pequeno espaço para expor um pouco da minha personalid
     			document.getElementById("second-block").style.display = 'none';
     			document.getElementById("third").classList.add('active');
     			document.getElementById("third-block").style.display = 'block';
+    			document.getElementById("fourth").classList.add('active');
+    			document.getElementById("fourth-block").style.display = 'none';
+    		}else if(id == 'fourth'){
+    			document.getElementById("first").classList.remove('active');
+    			document.getElementById("first-block").style.display = 'none';
+    			document.getElementById("second").classList.remove('active');
+    			document.getElementById("second-block").style.display = 'none';
+    			document.getElementById("third").classList.add('active');
+    			document.getElementById("third-block").style.display = 'none';
+    			document.getElementById("fourth").classList.add('active');
+    			document.getElementById("fourth-block").style.display = 'block';
     		}
     	}
 	$('.nav a[href^="#"]').on('click', function(e) {
